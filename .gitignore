@@ -1,0 +1,22 @@
+﻿
+# ignore the settings folder and files for VSCode and PSS
+.vscode/*
+*.psproj
+*TempPoint*
+
+# Ignore staging info from Visual Studio
+library/SPOTools/.vs/*
+library/SPOTools/SPOTools/bin/*
+library/SPOTools/SPOTools/obj/*
+
+# ignore PowerShell Studio MetaData
+SPOTools/SPOTools.psproj
+SPOTools/SPOTools.psproj.bak
+SPOTools/SPOTools.psprojs
+SPOTools/SPOTools.psproj
+
+# ignore the TestResults
+TestResults/*
+
+# ignore the publishing Directory
+publish/*
